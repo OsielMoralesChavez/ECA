@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-image: url(../img/catrina.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: #fff;
+}
+
+h2{
+    padding-top: 2.5rem;
+    font-size: 3rem;
+    color: #e5602f;
+}
+.section{
+    padding: 2rem;
+}
+
+/* Boton*/ 
+.boton {
+    width: 10em;
+    position: relative;
+    height: 3.5em;
+    border: 3px ridge #e5602f;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  .boton::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #050811;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  .boton::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #050811;
+    transition: 0.5s;
+  }
+  
+  .boton:hover::before, .boton:hover::after {
+    transform: scale(0)
+  }
+  
+  .boton:hover {
+    box-shadow: inset 0px 0px 25px #e5602f;
+  }
+
+  /* Cierra Boton*/

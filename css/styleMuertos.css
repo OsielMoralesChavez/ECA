@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+body {
+    background-color: black;
+    color: #fff;
+}
+
+h2{
+    padding-top: 2.5rem;
+    font-size: 3rem;
+    color: #c42da9;
+    text-align: center;
+    padding-bottom: 1.5rem;
+}
+section{
+    padding: 2rem;
+}
+
+.texto {
+    display: flex;
+    align-items: center;  
+    justify-content: center;  
+    text-align: center;  
+    height: 100%;
+}
+
+.imagen{
+    border-radius: 10px;
+}
