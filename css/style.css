@@ -8,6 +8,23 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
+    min-height: 100vh;
+}
+
+main {
+  flex: 1; /* Esto hará que el main ocupe el espacio disponible */
+}
+
+footer {
+  padding: 20px 0; /* Espaciado para el footer */
+}
+
+h1{
+  padding-top: 2rem;
+  font-size: 3rem;
+  letter-spacing: 4px;
+  font-weight: bolder;
+  color: #e5602f;
 }
 
 h2{
