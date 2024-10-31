@@ -7,12 +7,24 @@ body {
     color: #fff;
 }
 
-h2{
+h2 {
     padding-top: 2.5rem;
     font-size: 3rem;
-    color: #c42da9;
-    text-align: center;
+    color: #c42da9; /* Color del texto */
+    text-align: center; /* Centrar el texto */
     padding-bottom: 1.5rem;
+    text-shadow: 
+        2px 2px 0px rgba(0, 0, 0, 0.5),  /* Sombra negra para dar profundidad */
+        3px 3px 5px rgba(0, 0, 0, 0.7),  /* Sombra más difusa para un efecto de profundidad */
+        0 0 20px rgba(255, 255, 255, 0.3), /* Resplandor suave en blanco */
+        0 0 30px rgba(196, 45, 169, 0.8), /* Resplandor en el mismo tono con más intensidad */
+        0 0 40px rgba(196, 45, 169, 0.5); /* Resplandor más difuso */
+    transition: transform 0.3s ease; /* Efecto de transición suave */
+}
+
+h2:hover {
+    transform: scale(1.05); /* Aumentar ligeramente el tamaño al pasar el ratón */
+    color: #d56bb0; /* Cambiar a un tono más claro al pasar el ratón */
 }
 section{
     padding: 2rem;
@@ -28,5 +40,6 @@ section{
 
 .imagen{
     border-radius: 10px;
-    height: 20rem;
+    height: 23rem;
+    width: auto;
 }
