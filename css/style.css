@@ -8,16 +8,80 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     color: #fff;
+    display: flex;
+    flex-direction: column;
     min-height: 100vh;
+}
+
+@media(max-width:768){
+  body{
+    background-size: contain;
+  }
+  h1 {
+    font-size: 2.5rem; /* Tamaño de fuente más pequeño para pantallas pequeñas */
+}
+h2 {
+    font-size: 2rem; /* Tamaño de fuente más pequeño para subtítulos */
+}
+.section {
+    padding: 1rem; /* Menos espaciado en secciones */
+}
+.boton {
+  width: 80%; /* Botón más ancho en pantallas pequeñas */
+  height: 3em; /* Altura del botón ajustada */
+  font-size: 14px; /* Tamaño de fuente más pequeño */
+}
+}
+
+/* Estilo para dispositivos de tabletas (iPad) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  h1 {
+      font-size: 3rem; /* Tamaño de fuente ajustado para tabletas */
+  }
+  h2 {
+      font-size: 2.5rem; /* Tamaño de fuente ajustado para subtítulos */
+  }
+  .section {
+      padding: 1.5rem; /* Espaciado moderado en secciones */
+  }
+  .boton {
+      width: 60%; /* Botón más estrecho en tabletas */
+      height: 3.5em; /* Altura del botón ajustada */
+      font-size: 16px; /* Tamaño de fuente normal */
+  }
+}
+
+/* Estilo para pantallas más grandes (desktops) */
+@media (min-width: 1025px) {
+  h1 {
+      font-size: 3.5rem; /* Tamaño de fuente normal para pantallas grandes */
+  }
+  h2 {
+      font-size: 3rem; /* Tamaño de fuente normal para subtítulos */
+  }
+  .section {
+      padding: 2rem; /* Espaciado normal en secciones */
+  }
+  .boton {
+      width: 10em; /* Ancho normal del botón */
+      height: 3.5em; /* Altura normal del botón */
+      font-size: 16px; /* Tamaño de fuente normal */
+  }
 }
 
 main {
   flex: 1; /* Esto hará que el main ocupe el espacio disponible */
+  padding-top: 56px;
+}
+
+.fondo{
+  background-color: #050811;
 }
 
 footer {
   padding: 20px 0; /* Espaciado para el footer */
   background-color: #050811;
+  text-align: center;
 }
 
 h1 {
@@ -47,7 +111,7 @@ h2{
     color: #e5602f;
 }
 .section{
-    padding: 2rem;
+    padding: 1.5rem;
 }
 
 /* Boton*/ 
@@ -99,3 +163,33 @@ h2{
   }
 
   /* Cierra Boton*/
+
+  /* Estilo para dispositivos entre 580px y 780px */
+@media (min-width: 580px) and (max-width: 780px) {
+  main {
+      padding-bottom: 0; /* Asegúrate de que no haya padding en la parte inferior */
+  }
+
+  footer {
+      margin-top: 0; /* Elimina el margen superior del footer */
+      padding: 10px 0; /* Ajusta el padding del footer si es necesario */
+  }
+
+  .section {
+      padding: 1.5rem; /* Ajusta el padding de las secciones si es necesario */
+  }
+
+  h1 {
+      font-size: 2.5rem; /* Tamaño de fuente ajustado para pantallas pequeñas */
+  }
+
+  h2 {
+      font-size: 2rem; /* Tamaño de fuente ajustado para subtítulos */
+  }
+
+  .boton {
+      width: 80%; /* Botón más ancho en pantallas pequeñas */
+      height: 3em; /* Altura del botón ajustada */
+      font-size: 14px; /* Tamaño de fuente más pequeño */
+  }
+}
