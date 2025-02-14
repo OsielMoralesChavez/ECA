@@ -3,73 +3,207 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ECA</title>
+    <title>NEO</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,100;0,300;0,400;0,    700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&    family=Oswald:wght@200..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto   +Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./css/styles.css">
   </head>
   <body>
     <header>
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container">
-              <a class="navbar-brand" href="#">ECA</a>
+              <a class="navbar-brand" href="#">Navbar</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="./Pages/DiaMuertos.html">Ofrenda</a>
+                    <a class="nav-link" href="#">Link</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Dropdown
+                    </a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://universidadmotoliniadelpedregal.com/" target="_blank">UMP</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Pages/admin.html">Administración</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="./Pages/mercadotecnia.html">Mercadotecnia</a>
+                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
                   </li>
                 </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
               </div>
             </div>
-        </nav>
+          </nav>
     </header>
-    <main>
-        <section>
-            <div class="section">
-                <div class="row">
-                    <div class="col-lg-5 col-md-4 col-sm-5">
-                        <h1>ECA</h1>
-                        <p>¿Quienes somos?</p>
-                        <p>
-                          En nuestra carrera, nos dedicamos a formar mercadólogos con una sólida base de conocimientos sobre el mercado y sus requerimientos. A través del uso de herramientas tecnológicas avanzadas, preparamos a nuestros estudiantes para identificar necesidades específicas y desarrollar estrategias de mercadotecnia efectivas que satisfagan dichas demandas. Nuestro enfoque práctico y teórico garantiza que nuestros graduados estén listos para enfrentar los desafíos del mundo empresarial y contribuir al crecimiento de las organizaciones.
-                        </p>
-                    </div> 
+    
+    <section class="container mt-4">
+      <h2>Unidad 1: Introducción a la Tecnología Educativa</h2>
+        <div class="row">
+            <div class="col-lg-6 col-md-6 col-sm mb-4">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                      Datos Generales
+                    </button>
+                  </h2>
+                  <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2"><i class="bi bi-mortarboard-fill me-2"></i><strong>Curso:</strong> Innovación y Tecnologías Educativas para el Siglo XXI</li>
+                        <li class="d-flex align-items-center mb-2"><i class="bi bi-journal-text me-2"></i><strong>Unidad:</strong> Introducción a la Tecnología Educativa</li>
+                        <li class="d-flex align-items-center"><i class="bi bi-clock me-2"></i><strong>Duración:</strong> 1 semana</li>
+                    </ul>
+                    </div>
+                  </div>
                 </div>
-            </div>
-        </section>
-        <div class="section">
-            <div class="row">
-                <div class="col">
-                    <a href="./Pages/DiaMuertos.html">
-                        <button class="boton">
-                            Día de Muertos
-                        </button>
-                    </a>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Objetivos de Aprendizaje
+                    </button>
+                  </h2>
+                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2"><i class="bi bi-lightbulb me-2"></i>Definir el concepto y la evolución de la tecnología educativa.</li>
+                        <li class="d-flex align-items-center mb-2"><i class="bi bi-book me-2"></i>Analizar las principales teorías del aprendizaje en entornos digitales.</li>
+                        <li class="d-flex align-items-center mb-2"><i class="bi bi-graph-up me-2"></i>Identificar el impacto de la tecnología en la educación del siglo XXI.</li>
+                        <li class="d-flex align-items-center mb-2"><i class="bi bi-controller me-2"></i>Explorar tendencias actuales como la gamificación, el microaprendizaje y la realidad extendida.</li>
+                        <li class="d-flex align-items-center"><i class="bi bi-shield-lock me-2"></i>Reflexionar sobre la ética y la privacidad en el uso de las tecnologías de la información en educación.</li>
+                    </ul>
+                    </div>
+                  </div>
                 </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Competencias a Desarrollar
+                    </button>
+                  </h2>
+                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                      <ul class="list-unstyled">
+                        <li class="d-flex align-items-center mb-2"><i class="bi bi-laptop me-2"></i>Aplicación de teorías del aprendizaje en entornos digitales.</li>
+                        <li class="d-flex align-items-center mb-2"><i class="bi bi-bar-chart-line me-2"></i>Análisis de impacto tecnológico en la educación.</li>
+                        <li class="d-flex align-items-center mb-2"><i class="bi bi-controller me-2"></i>Uso de herramientas de gamificación para potenciar la enseñanza.</li>
+                        <li class="d-flex align-items-center"><i class="bi bi-shield-lock me-2"></i>Evaluación crítica sobre la ética en tecnología educativa.</li>
+                    </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
+            <div class="col-lg-6 col-md-6 col-sm mb-4">
+              <canvas id="donutChart"></canvas>
+          </div>
+          
         </div>
-        <section class="fondo">
+    </section>
 
-        </section>
-    </main>
-    <hr>
-    <footer class="text-center">
-        <p>&copy; 2024 - Celebrando nuestras tradiciones mexicanas</p>
-    </footer>
+    <section class="modulos">
+      <h2 class="text-center">Contenidos</h2>
+      <div class="row">
+        <!-- Módulo 1 -->
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Módulo 1: Definición y Evolución de la Tecnología Educativa</h5>
+            <ul class="list-unstyled ">
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-lightbulb me-2"></i>Concepto y antecedentes</li>
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-clock-history me-2"></i>Fases de evolución de la tecnología educativa</li>
+              <li class="d-flex align-items-center"><i class="bi bi-trophy me-2"></i>Casos de éxito en la integración de tecnología en educación</li>
+          </ul>
+          <div class="d-inline-flex gap-1">
+            <a href="./pages/modulo1.html" class="btn btn-outline-info">Go somewhere</a>
+          </div>
+          <div class="go-corner">
+            <a href="./pages/modulo1.html"> 
+              <i class="bi bi-arrow-right"></i>
+            </a>
+          </div>
+          </div>
+        </div>
+        </div>
+        <!-- Módulo 2 -->
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Módulo 2: Teorías del Aprendizaje en Entornos Digitales</h5> 
+            <ul class="list-group">
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-lightbulb-fill me-2"></i> Constructivismo, conectivismo y aprendizaje colaborativo</li>
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-laptop me-2"></i> Aplicaciones de estas teorías en plataformas LMS</li>
+          </ul>
+            <div class="d-inline-flex gap-1">
+              <a href="#" class="btn btn-outline-info">Go somewhere</a>
+            </div>
+          <div class="go-corner">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+          </div>
+        </div>
+        </div>
+        <!-- Módulo 3 -->
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Módulo 3: Tendencias en Tecnología Educativa</h5>
+            <ul class="list-group">
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-controller me-2"></i> Gamificación</li>
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-inbox me-2"></i> Microaprendizaje</li>
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-headset me-2"></i> Realidad Extendida (RA, RV)</li>
+            </ul>
+            
+            <div class="d-inline-flex gap-1">
+              <a href="#" class="btn btn-outline-info">Go somewhere</a>
+            </div>
+          <div class="go-corner">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+          </div>
+        </div>
+        </div>
+        <!-- Módulo 4 -->
+        <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12 mb-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title">Módulo 4: Brechas Digitales y Ética</h5>
+            <ul class="list-group">
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-person-lines-fill me-2"></i> Retos y soluciones de la inclusión digital</li>
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-lock me-2"></i> Privacidad y uso responsable de la tecnología</li>
+            </ul>
+            
+            <div class="d-inline-flex gap-1">
+              <a href="#" class="btn btn-outline-info">Go somewhere</a>
+            </div>
+          <div class="go-corner">
+            <i class="bi bi-arrow-right"></i>
+          </div>
+          </div>
+        </div>
+        </div>
+      </div>
+    </section>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="./js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
   </body>
 </html>
